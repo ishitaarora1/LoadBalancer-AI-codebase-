@@ -3,6 +3,7 @@ import React from "react";
 export default function Home() {
   return (
     <div className="bg-white min-h-screen font-sans text-gray-800">
+      {/* Navigation Bar */}
       <nav className="flex justify-between items-center px-10 py-6 shadow-md">
         <h1 className="text-xl font-bold text-purple-700">LoadBalancer AI</h1>
         <div className="space-x-6">
@@ -12,6 +13,7 @@ export default function Home() {
         </div>
       </nav>
 
+      {/* Hero Section */}
       <header className="text-center py-20 bg-gradient-to-r from-purple-100 to-blue-100">
         <h2 className="text-4xl font-bold mb-4">AI-Powered Fairness in Project Allocation</h2>
         <p className="text-lg mb-6">Eliminating politics. Predicting burnout. Empowering skills.</p>
@@ -20,6 +22,7 @@ export default function Home() {
         </a>
       </header>
 
+      {/* About / Founder Section */}
       <section id="about" className="flex flex-col md:flex-row items-center px-10 py-16 bg-white">
         <img
           src="/IMG_4796~2.jpg"
@@ -31,14 +34,17 @@ export default function Home() {
           <p className="text-gray-700 leading-relaxed">
             In most organizations, burnout, bias, and silent resignations are treated like myths. They’re whispered on
             YouTube, buried under fancy dashboards — but never really acknowledged in systems.
-            <br /><br />I lived it. I flagged it. And when no platform showed me the numbers behind the unfairness — I built one.
+            <br /><br />
+            I lived it. I flagged it. And when no platform showed me the numbers behind the unfairness — I built one.
             LoadBalancer AI brings together skill matching, behavior analysis, and AI-led burnout prediction into one brutally honest, yet constructive system.
-            <br /><br />When the world tells you \"You're not good enough,\" LoadBalancer AI shows you:
+            <br /><br />
+            When the world tells you "You're not good enough," LoadBalancer AI shows you:
             “You upskilled 12%. Your match score improved. The system sees you.”
           </p>
         </div>
       </section>
 
+      {/* Features Section */}
       <section id="features" className="bg-gray-50 px-10 py-16 text-center">
         <h3 className="text-3xl font-bold mb-10">Why LoadBalancer AI?</h3>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -61,6 +67,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Footer */}
       <footer className="text-center py-6 text-sm text-gray-500">
         © 2025 LoadBalancer AI. Built with empathy.
       </footer>
