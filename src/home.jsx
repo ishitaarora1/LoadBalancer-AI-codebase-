@@ -22,7 +22,7 @@ export default function Home() {
 
       <section id="about" className="flex flex-col md:flex-row items-center px-10 py-16 bg-white">
         <img
-          src="/founder.jpg"
+          src="/IMG_4796~2.jpg"
           alt="Founder Ishita Arora"
           className="w-60 h-60 object-cover rounded-full shadow-lg mb-6 md:mb-0 md:mr-10"
         />
